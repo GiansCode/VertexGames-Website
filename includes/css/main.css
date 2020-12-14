@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body {
+	background: url("../img/bg.png") no-repeat center fixed;
+	background-size: cover
+}
+
+html, body, .container-fluid {
+	height: 100%;
+	margin: 0;
+	padding: 0
+}
+
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+.logo-row {
+	height: 60%;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+a {
+	width: 50%;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	font-family: "Ubuntu", sans-serif;
+	color: white;
+	text-align: center;
+	font-size: .96em;
+}
